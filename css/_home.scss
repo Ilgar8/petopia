@@ -1,0 +1,682 @@
+#animals {
+    background-image: url(https://html.merku.love/petopia/assets/images/banner/shape_banner_bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding-top: 10%;
+
+
+    .box {
+        padding-left: 20px;
+
+        span {
+            color: #7C58D3;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        h1 {
+            color: black;
+            font-size: 54px;
+            font-weight: 800;
+            font-family: Nunito, sans-serif;
+            color: #0e081e;
+            width: 64%;
+            line-height: 66px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #1c103b;
+            width: 65%;
+            font-size: 18px;
+            font-weight: 400;
+            text-rendering: optimizelegibility;
+            width: 60%;
+        }
+
+        .boxes {
+            .animals-icon {
+                margin-bottom: 20px;
+
+                &:hover {
+                    i {
+                        background-color: #7C58D3;
+                        color: white;
+                    }
+                }
+
+                i {
+                    color: #7C58D3;
+                    font-size: 30px;
+                    border: 1px solid gray;
+                    padding: 10px;
+                    border-radius: 10%;
+
+
+
+                }
+
+                h3 {
+                    color: black;
+                    font-size: 24px;
+                    font-weight: 800;
+                }
+
+                span {
+                    font-size: 14px;
+                    color: #0e081e;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+
+// animals finished\\
+// ================================\\
+#laner {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background: rgb(120, 117, 175);
+    background: linear-gradient(90deg, rgba(120, 117, 175, 1) 0%, rgba(101, 111, 217, 1) 90%);
+    padding: 3rem 0;
+    border-radius: 8mm;
+}
+
+// laner finished\\
+// ==========================================\\
+#category {
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+    .category-top {
+        p {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1;
+            margin-bottom: 16px;
+            color: #7C58D3;
+            font-weight: 800;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 46px;
+            font-weight: 800;
+            color: black;
+        }
+    }
+
+    .boxing {
+        border: 2px solid red;
+        border-radius: 3mm;
+        margin-top: 50px;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1;
+            padding-left: 40px;
+            padding-top: 20px;
+        }
+
+        ul {
+            font-size: 20px;
+            width: 50%;
+
+
+
+
+            li {
+                padding-bottom: 10px;
+                list-style: circle;
+                margin-right: 10px;
+                transition: 0.5s ease-in-out;
+
+
+                &:hover {
+                    list-style: disc;
+                }
+            }
+
+        }
+    }
+}
+
+// category finished\\
+// =============================\\
+#products {
+    padding-top: 10%;
+
+    .products-top {
+        margin-left: 70px;
+        padding-bottom: 5%;
+
+        span {
+            font-size: 16px;
+            margin-bottom: 16px;
+            line-height: 1;
+            color: #7C58D3;
+            font-weight: 800;
+
+        }
+
+        h2 {
+            font-size: 46px;
+            font-weight: 800;
+            color: black;
+            margin-top: 10px;
+        }
+    }
+
+    .products-bottom {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        .top-one {
+            width: 20%;
+
+            p {
+                font-size: 22px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+            }
+
+            .icon {
+                color: #FFDA47;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 30px;
+                text-align: center;
+                color: #7C58D3;
+            }
+        }
+
+
+
+
+
+    }
+}
+
+//  products finished\\
+// -----------------------------\\
+#fashion {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .box-img-left {
+
+        background-image: url(https://html.merku.love/petopia/assets/images/banner/offer_banner_bg_img_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 70vh;
+        border-radius: 3mm;
+
+
+
+        h2 {
+            font-size: 52px;
+            font-weight: 800;
+            color: black;
+            padding-top: 150px;
+            padding-left: 30px;
+            width: 35%;
+        }
+
+        p {
+            font-size: 22px;
+            width: 40%;
+            padding-left: 30px;
+        }
+
+        a {
+            font-size: 18px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            font-weight: 800;
+            color: #7C58D3;
+            cursor: pointer;
+        }
+    }
+
+    .box-img-right {
+        background-color: #FFDA47;
+        margin-bottom: 20px;
+        border-radius: 3mm;
+
+        h2 {
+            font-size: 28px;
+            line-height: 36px;
+            margin-bottom: 10px;
+            font-weight: 800;
+            color: black;
+            padding-top: 30px;
+            padding-left: 10px;
+
+
+        }
+
+        a {
+
+            font-size: 18px;
+            line-height: 1;
+            color: #7C58D3;
+            font-weight: 800;
+            cursor: pointer;
+            padding-left: 30px;
+        }
+
+
+    }
+}
+
+// fashion finished\\
+// ===========================================\\
+#sale {
+    h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    img {
+        padding-right: 40px;
+        overflow: hidden;
+        transition: 1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .products-box {
+        h3 {
+            font-size: 25px;
+            font-weight: bold;
+            color: black;
+
+            &:hover {
+                color: #7C58D3;
+            }
+        }
+
+        i {
+            color: #FFDA47;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: 800;
+            color: #7C58D3;
+        }
+
+
+
+    }
+
+}
+
+// sale finished\\
+// ===============================\\
+#post {
+    margin-bottom: 100px;
+
+    p {
+        font-size: 20px;
+        font-weight: 700;
+        color: #7C58D3;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .post-box {
+        .post-img {
+            overflow: hidden;
+            
+
+            img {
+                border-radius: 3mm;
+                transition: 0.5s ease-in-out;
+                overflow: hidden;
+                
+                
+            }
+        }
+
+        &:hover {
+            img {
+
+                border-radius: 3mm;
+                transform: scale(1.1);
+                transition-property: all;
+                transition-duration: 0.6s;
+                transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+                transition-delay: 0s;
+            }
+
+            h2 {
+                color: #7C58D3;
+                
+            }
+        }
+
+        h2 {
+            font-size: 25px;
+            font-weight: 800;
+            color: #1c103b
+        }
+
+        span {
+            font-size: 18px;
+            color: #1c103b
+        }
+
+    }
+}
+
+// post finished\\
+// =================================\\
+#instagram {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+
+    span {
+        padding-left: 68px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #7C58D3;
+    }
+
+    h2 {
+        padding-left: 70px;
+        font-size: 50px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .instagram-img {
+        overflow: hidden;
+
+        img {
+            border-radius: 3mm;
+            transition: 0.5s ease-in-out;
+            opacity: 1;
+
+            &:hover {
+                transform: scale(1.05);
+                opacity: 0.8;
+
+
+            }
+
+
+        }
+    }
+}
+
+// instagram finished\\
+// -----------------------\\
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------------\\
+@media (min-width:0) and (max-width:576px) {
+    #animals {
+        background-size: 64%;
+        background-position: right top;
+
+        .box {
+            span {
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            h1 {
+                font-size: 40px;
+                width: 100%;
+                line-height: 45px;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            img {
+                padding-top: 13%;
+                background-size: 64%;
+            }
+
+            .boxes {
+                .animals-icon {
+                    span {
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // animals finished\\
+    #category {
+        margin: auto;
+
+        .category-top {
+            h2 {
+                padding-right: 100px;
+                font-size: 30px;
+            }
+        }
+
+        .boxing {
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+
+        img {
+            display: none;
+        }
+
+        h2 {
+            margin-left: 80px;
+        }
+
+        ul {
+            padding-left: 50px;
+        }
+
+    }
+
+    // category finished\\
+    #products {
+        display: none;
+    }
+
+    // product finished\\
+    #fashion {
+
+        .box-img-left {
+
+
+
+            h2 {
+                font-size: 25px;
+
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        h2 {
+            font-size: 38px;
+            line-height: 1.2;
+            width: 70%;
+        }
+
+
+    }
+
+    #sale {
+        h2 {
+            font-size: 25px;
+        }
+
+        .products-box {
+            h3 {
+                font-size: 20px;
+            }
+
+            i {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // sale finished\\
+    #post {
+        p {
+            font-size: 15px;
+
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        .post-box {
+            h2 {
+                font-size: 25px;
+            }
+
+            span {
+                font-size: 18px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (min-width:576) and (max-width:772px) {
+    #animals {
+        padding-top: 15%;
+
+        .box {
+            span {
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font: size 20px;
+                ;
+            }
+        }
+    }
+
+    // animals finished\\
+    #category {
+        margin: auto;
+
+        .category-top {
+            h2 {
+                padding-right: 100px;
+                font-size: 30px;
+            }
+        }
+
+        .boxing {
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+
+        img {
+            display: none;
+        }
+
+        h2 {
+            margin-left: 80px;
+        }
+
+        ul {
+            padding-left: 50px;
+        }
+
+    }
+
+    // category finished\\
+    #products {
+        display: none;
+    }
+
+    // product finished\\
+    #fashion {
+
+        .box-img-left {
+
+
+
+            h2 {
+                font-size: 25px;
+
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        h2 {
+            font-size: 38px;
+            line-height: 1.2;
+            width: 70%;
+        }
+
+
+    }
+
+}
